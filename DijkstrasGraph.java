@@ -14,7 +14,7 @@ import java.util.PriorityQueue;
 public class DijkstrasGraph {
     private final Edge[] ALL_EDGES;
     private final Vertex[] ALL_VERTICES;
-    private PriorityQueue uncheckedNodes;
+    private PriorityQueue<Vertex> uncheckedNodes;
     
     
     public DijkstrasGraph( Edge[] edges, Vertex[] vertices) {
